@@ -11,7 +11,7 @@ now write a big example code using all Methods of LinkedHashMap
 
 now make table of all Constructors, Properties, Methods of  LinkedHashMap about what they do
 
-generate a real life problem and solve it using LinkedHashMap
+generate a real life problem that can be solved  using LinkedHashMap
 
 
 
