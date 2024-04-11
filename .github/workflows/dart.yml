@@ -1,0 +1,26 @@
+#give the pipeline a name
+name: Dart CI
+
+#set conditions to trigger on
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# define what happens when conditions are met
+jobs:
+  build:
+    # use ubuntu's latest OS
+    runs-on: ubuntu-latest
+    # use the google/dart container (this makes `dart` available to use)
+    container:
+      image: google/dart:latest
+
+    # checkout the code, run pub get and finally run tests
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: pub get
+      - name: Run tests
+        run: pub run test
