@@ -29,6 +29,10 @@ dart pub get
 ### 4. Make Changes
 
 Make your desired changes to the project on your local machine.
+First got to this url https://api.dart.dev/stable/3.3.0/index.html 
+and find the part that is not covered on the project (currently dart:collection is maximum covered) do add ur code 
+![image](https://github.com/xeron56/dart_programming/assets/11449967/d2022e98-daeb-4142-9fc9-2387d742cc77)
+
 
 ### 5. Test Your Changes
 
