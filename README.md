@@ -19,7 +19,7 @@
 
 <!-- Fancy Starting -->
 <p align="center">
-  Welcome to the Dart Programming Documentation Project! This open-source initiative aims to provide comprehensive and clear documentation for the Dart programming language's core library.
+  Welcome to the Dart Programming Documentation Project! This open-source initiative aims to provide comprehensive and clear documentation with code example for the Dart programming language's core library.
 </p>
 
 
