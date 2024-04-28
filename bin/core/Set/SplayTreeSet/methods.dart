@@ -64,7 +64,9 @@ void main() {
 
   /// Method 12: forEach
   /// Applies the specified [action] to each element in the set.
-  splayTreeSet.forEach((element) => print('Element: $element'));
+  for (var element in splayTreeSet) {
+    print('Element: $element');
+  }
 
   /// Method 13: intersection
   /// Returns a new set with the elements that are common to both this set and the [other] set.

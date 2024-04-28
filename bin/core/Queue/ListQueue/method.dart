@@ -53,7 +53,9 @@ void main() {
   print('Queue after retaining elements greater than 3: $queue');
 
   // Iterating over elements
-  queue.forEach((element) => print('Element: $element'));
+  for (var element in queue) {
+    print('Element: $element');
+  }
 
   // Converting the queue to a list
   var queueAsList = queue.toList();

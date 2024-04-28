@@ -1,4 +1,6 @@
-import 'dart:collection';
+
+
+// ignore_for_file: override_on_non_overriding_member
 
 void main() {
   // Creating an empty DoubleLinkedQueue
@@ -34,26 +36,31 @@ class DoubleLinkedQueue<E> extends Iterable<E> {
   }
   
   @override
+
   void add(E value) {
     // TODO: implement add
   }
   
   @override
+
   void addAll(Iterable<E> iterable) {
     // TODO: implement addAll
   }
   
   @override
+
   void addFirst(E value) {
     // TODO: implement addFirst
   }
   
   @override
+
   void addLast(E value) {
     // TODO: implement addLast
   }
   
   @override
+
   void clear() {
     // TODO: implement clear
   }
@@ -63,6 +70,7 @@ class DoubleLinkedQueue<E> extends Iterable<E> {
   Iterator<E> get iterator => throw UnimplementedError();
   
   @override
+
   bool remove(Object? value) {
     // TODO: implement remove
     throw UnimplementedError();

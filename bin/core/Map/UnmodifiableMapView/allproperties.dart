@@ -7,9 +7,9 @@ void main() {
 
   // Access properties of UnmodifiableMapView
   print('Map entries:');
-  unmodifiableMapView.entries.forEach((entry) {
+  for (var entry in unmodifiableMapView.entries) {
     print('${entry.key}: ${entry.value}');
-  });
+  }
 
   print('Hash code of the map: ${unmodifiableMapView.hashCode}');
   print('Is the map empty? ${unmodifiableMapView.isEmpty}');

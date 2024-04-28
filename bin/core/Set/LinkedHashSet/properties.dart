@@ -21,9 +21,9 @@ void main() {
   
   // 2. Iterating over the LinkedHashSet
   print("Iterating over the LinkedHashSet:");
-  linkedHashSet.forEach((element) {
+  for (var element in linkedHashSet) {
     print(element);
-  });
+  }
 
   // 3. Accessing elements by index (not supported in LinkedHashSet)
   // Uncommenting the following line will result in a compile-time error

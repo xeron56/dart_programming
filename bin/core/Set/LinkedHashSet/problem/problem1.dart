@@ -29,7 +29,9 @@ class MusicPlaylist {
       print("Playlist is empty.");
     } else {
       print("Current Playlist:");
-      playlist.forEach((song) => print("- $song"));
+      for (var song in playlist) {
+        print("- $song");
+      }
     }
   }
 }

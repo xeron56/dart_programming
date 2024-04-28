@@ -60,7 +60,9 @@ void main() {
   print('Followed by set: $followedBySet');
 
   // 15. forEach
-  unmodifiableSetView.forEach((element) => print('Element: $element'));
+  for (var element in unmodifiableSetView) {
+    print('Element: $element');
+  }
 
   // 16. intersection
   final intersectionSet = unmodifiableSetView.intersection({'apple', 'orange'});

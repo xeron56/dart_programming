@@ -1,6 +1,7 @@
 import 'dart:collection';
 
-import 'package:dart_programming/dart_programming.dart';
+
+// ignore: depend_on_referenced_packages
 import 'package:test/test.dart';
 
 void main() {

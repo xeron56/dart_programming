@@ -26,7 +26,7 @@ void main() {
   print(hashMap); // Output: {one: 1, two: 2, three: 3, four: 4}
 
   // 5. LinkedHashMap
-  var linkedHashMap = LinkedHashMap<String, int>();
+  var linkedHashMap = <String, int>{};
   linkedHashMap.addAll({'one': 1, 'two': 2, 'three': 3});
   linkedHashMap['four'] = 4;
   print(linkedHashMap); // Output: {one: 1, two: 2, three: 3, four: 4}

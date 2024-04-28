@@ -42,7 +42,7 @@ void main() {
   });
 
   // Method: map
-  final mapped = unmodifiableMapView.map((key, value) => MapEntry('$key', '$value'));
+  final mapped = unmodifiableMapView.map((key, value) => MapEntry('$key', value));
   print('Mapped: $mapped');
 
   // Method: putIfAbsent

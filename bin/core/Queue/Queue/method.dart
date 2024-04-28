@@ -35,7 +35,9 @@ void main() {
   print('Queue after removing even numbers: $queue');
 
   // Iterating
-  queue.forEach((element) => print('Element: $element'));
+  for (var element in queue) {
+    print('Element: $element');
+  }
 
   // Clearing the queue
   queue.clear();

@@ -2,7 +2,7 @@ import 'dart:collection';
 
 void main() {
   // Constructor: LinkedHashMap()
-  var linkedHashMap1 = LinkedHashMap();
+  var linkedHashMap1 = {};
   linkedHashMap1[1] = 'One';
   linkedHashMap1[2] = 'Two';
   linkedHashMap1[3] = 'Three';

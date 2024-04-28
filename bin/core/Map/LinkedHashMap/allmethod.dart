@@ -1,8 +1,8 @@
-import 'dart:collection';
+
 
 void main() {
   // Creating an empty LinkedHashMap
-  final Map<int, String> planets = LinkedHashMap();
+  final Map<int, String> planets = {};
 
   // Adding key-value pairs to the map
   planets.addAll({1: 'Mercury', 2: 'Venus'});

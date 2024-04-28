@@ -62,7 +62,9 @@ final followedByList = myNewList.followedBy([60, 70, 80]);
 print('Followed by list: $followedByList'); // Output: (10, 0, 0, 0, 50, 60, 70, 80)
 
 // forEach()
-myNewList.forEach((element) => print('Element: $element'));
+for (var element in myNewList) {
+  print('Element: $element');
+}
 
 // getRange()
 final rangeList = myNewList.getRange(1, 4).toList();

@@ -28,7 +28,9 @@ void main() {
 
   // Iterate over the list using forEach
   print('Iterating over the list using forEach:');
-  linkedList.forEach((entry) => print(entry));
+  for (var entry in linkedList) {
+    print(entry);
+  }
   // Output:
   // 0 : Pear
   // 1 : Apple
