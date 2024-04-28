@@ -28,6 +28,9 @@
 
 Welcome to the Dart Programming Documentation Project! This open-source initiative aims to provide comprehensive and clear documentation for the Dart programming language's core library.
 
+![code](https://github.com/xeron56/dart_programming/assets/11449967/1cfda0ff-9918-458f-be04-c3174df3c029)
+
+
 ## Objective
 
 The primary objective of this project is to elucidate the Dart core library, breaking it down section by section, and providing detailed explanations along with clean, illustrative examples for every constructor, property, method, and other essential components.
