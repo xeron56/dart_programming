@@ -1,5 +1,6 @@
 {
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
-    }
+    },
+    "commentTranslate.hover.enabled": false
 }
